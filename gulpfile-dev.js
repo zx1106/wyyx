@@ -37,6 +37,12 @@ task('sass', async ()=>{
   .pipe(dest('./dist/css'))
   .pipe(load.connect.reload())
 })
+// 编译font
+task('font', async ()=>{
+  src('./font/*.*')
+  .pipe(dest('./dist/font'))
+  .pipe(load.connect.reload())
+})
 
 // 监听文件变化
 task('watch', async ()=>{
@@ -55,4 +61,4 @@ task('connect', async ()=>{
   })
 })
 
-task('dev', series('delDist','img','html','script','sass','connect','watch'))
+task('dev', series('delDist','img','html','script','sass','font','connect','watch'))
