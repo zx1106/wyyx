@@ -90,3 +90,6 @@ textarea {
 .container {
   width: 1090px;
   margin: 0 auto; }
+
+.bg {
+  background-image: './img/jingling1.png'; }

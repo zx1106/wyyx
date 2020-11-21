@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 html,
 body,
 ul,
@@ -20,42 +20,37 @@ legend,
 img,
 input,
 figure,
-figcaption
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-header,footer,section,article,aside,nav,main,hgroup{
-    display:block;
-}
-*{
-    box-sizing: border-box;
-}
+figcaption {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header, footer, section, article, aside, nav, main, hgroup {
+  display: block; }
+
+* {
+  box-sizing: border-box; }
+
 body {
-    font-size: 16px;
-    font-family: "微软雅黑";
-}
+  font-size: 16px;
+  font-family: "微软雅黑"; }
+
 ul,
 ol,
 li {
-    list-style: none;
-}
+  list-style: none; }
 
 b,
 strong {
-    font-weight: normal;
-}
+  font-weight: normal; }
 
 em,
 i {
-    font-style: normal;
-}
+  font-style: normal; }
 
 a,
 u {
-    text-decoration: none;
-}
+  text-decoration: none; }
 
 h1,
 h2,
@@ -63,44 +58,38 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 16px;
-    font-weight: normal;
-}
+  font-size: 16px;
+  font-weight: normal; }
 
 input {
-    outline: none;
-}
+  outline: none; }
 
 img {
-    display: block;
-    border: 0;
-}
+  display: block;
+  border: 0; }
 
 fieldset {
-    border: 0;
-}
+  border: 0; }
 
 textarea {
-    resize: none;
-}
+  resize: none; }
 
 /* 封装好类名 */
 .border_none {
-    border: none !important;
-}
+  border: none !important; }
 
 .bg_none {
-    background: none !important;
-}
+  background: none !important; }
 
 /* 单行文本溢出省略号显示 */
 .text_ellipsis {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-//版心宽度
-.container{
-    width: 1090px;
-    margin: 0 auto;
-}
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.container {
+  width: 1090px;
+  margin: 0 auto; }
+  .bg{
+    background-image: './img/jingling1.png';
+  }
