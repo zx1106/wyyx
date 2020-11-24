@@ -113,30 +113,3 @@ fn1()
         });
 
 
-        // 一张张切换
-        var mySwiper = new Swiper('.everyone', {
-          watchSlidesProgress : true,
-          watchSlidesVisibility : true,
-          autoplay: {
-              delay: 3000, //3秒切换一次
-          },
-          //分页器
-          pagination: {
-              el: '.swiper-pagination',
-              //点击分页器可以切换图片
-              clickable: true,
-        
-          },
-          //左右切换按钮
-          navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-          },
-
-          
-          //一直循环切换
-          loop: true,
-          loopAdditionalSlides: 3,
-        });
-
-        
