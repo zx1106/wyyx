@@ -30,7 +30,7 @@ var mySwiper = new Swiper('.swiper-container', {
 // mySwiper.el.onmouseover = function() {
 //     mySwiper.autoplay.stop();
 // }
-// //鼠标离开开始自动切换
+// // //鼠标离开开始自动切换
 // mySwiper.el.onmouseout = function() {
 //     mySwiper.autoplay.start();
 // }
@@ -88,4 +88,48 @@ function fn1() {
 } //间隔定时器，设置间隔时间
 
 
-var set1 = setInterval(fn1, 1000);
+var set1 = setInterval(fn1, 1000); //透明度轮播图
+
+var mySwiper = new Swiper('.swiper-container', {
+  autoplay: {
+    delay: 3000 //3秒切换一次
+
+  },
+  //分页器
+  pagination: {
+    el: '.swiper-pagination',
+    //点击分页器可以切换图片
+    clickable: true
+  },
+  //左右切换按钮
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  //一直循环切换
+  loop: true,
+  loopAdditionalSlides: 3
+}); // 一张张切换
+
+var mySwiper = new Swiper('.everyone', {
+  watchSlidesProgress: true,
+  watchSlidesVisibility: true,
+  autoplay: {
+    delay: 3000 //3秒切换一次
+
+  },
+  //分页器
+  pagination: {
+    el: '.swiper-pagination',
+    //点击分页器可以切换图片
+    clickable: true
+  },
+  //左右切换按钮
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  //一直循环切换
+  loop: true,
+  loopAdditionalSlides: 3
+});
