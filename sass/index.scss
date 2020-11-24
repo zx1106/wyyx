@@ -40,19 +40,26 @@
   display: inline-block;
   margin: 12px 10px;
 }
-.li5{
+.li5 a{
+  display: inline-block;
   position: relative;
 }
+.li6 a{
+  display: inline-block;
+  position: relative;
+}
+
 .xiala2{
 position: absolute;
 top: 36px;
-right: -12px;
+right: 255px;
 width: 85px;
 color: #ccc;
 display: none;
 font-size: 14px;
 background: #eee;
 padding: 0 10px;
+z-index: 90;
 }
 .xiala2 li{
   width: 70px;
@@ -69,6 +76,8 @@ padding: 0 10px;
   font-size: 14px;
   background: #eee;
   padding: 0 17px;
+  z-index: 90;
+
 }
 .xiala3 li{
   width: 70px;
@@ -134,8 +143,13 @@ padding: 0 10px;
     width: 442px;
     padding-left: 38px;
     outline: 0;
-    overflow: hidden;
     background: 0 0;
+}
+.nav_right_box i{
+  font-size: 24px;
+  position: absolute;
+  top: 36px;
+  left: 150px;
 }
 .nav_seach{
     width: 90px;
