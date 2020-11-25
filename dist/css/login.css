@@ -293,7 +293,361 @@
   background: #fff; }
 
 .banner {
-  background: url("https://yanxuan.nosdn.127.net/6c20940c7b36612b0ed4d7b0a8a4aafe.jpg");
+  clear: both;
+  background: url("https://yanxuan.nosdn.127.net/6c20940c7b36612b0ed4d7b0a8a4aafe.jpg") center center no-repeat;
   width: 100%;
   height: 600px;
-  background: center no-repeat; }
+  position: relative; }
+
+.loginBox {
+  width: 386px;
+  background: #fff;
+  z-index: 50;
+  height: 480px;
+  position: absolute;
+  top: 70px;
+  right: 165px;
+  padding: 0 50px 0; }
+
+.loginBox_header {
+  width: 386px;
+  height: 60px;
+  color: #333;
+  font-size: 18px; }
+
+.loginBox_header p {
+  display: inline-block;
+  margin-left: 50px; }
+
+.header_phone {
+  display: inline-block;
+  width: 90px;
+  height: 18px;
+  margin-top: 30px; }
+
+.header_email {
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+  margin-left: 50px; }
+
+.phone_main {
+  width: 300px;
+  height: auto; }
+  .phone_main .denglu {
+    font-size: 12px;
+    color: #333;
+    height: 26px;
+    line-height: 26px;
+    float: right;
+    padding: 0 0 0 34px;
+    margin-bottom: 6px; }
+  .phone_main .phone_login {
+    clear: both;
+    width: 298px;
+    min-height: 36px;
+    border: 1px solid #e8e8e8;
+    line-height: 36px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    background: url(https://yanxuan.nosdn.127.net/49f4a785eb9ded4831d8cb0ede642b3e.png) 4px 8px no-repeat; }
+  .phone_main i {
+    margin-left: 30px;
+    line-height: 36px; }
+  .phone_main .phone_user {
+    border: none;
+    height: 30px;
+    margin-bottom: 2px; }
+  .phone_main .huakuai {
+    width: 298px;
+    min-height: 36px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    margin-bottom: 20px; }
+  .phone_main .phone_code {
+    width: 298px;
+    min-height: 36px;
+    border: 1px solid #e8e8e8;
+    border-radius: 2px; }
+    .phone_main .phone_code .phone_code_Box {
+      border: none;
+      height: 30px;
+      padding-left: 10px; }
+    .phone_main .phone_code .yanzheng {
+      border: 1px solid #e8e8e8;
+      border-left: 0;
+      width: 88px;
+      height: 35px;
+      line-height: 36px;
+      background-color: #eee;
+      color: #333;
+      text-align: center;
+      float: right;
+      margin-bottom: 20px; }
+  .phone_main .phone_btn {
+    margin-top: 50px;
+    width: 300px;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #b4a078;
+    font-size: 18px;
+    line-height: 48px;
+    border-radius: 2px; }
+
+.email_main {
+  width: 300px;
+  height: auto;
+  padding-top: 30px;
+  display: none; }
+  .email_main .email_userBox {
+    width: 300px;
+    min-height: 36px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px; }
+    .email_main .email_userBox i {
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .email_main .email_userBox .email_user {
+      border: none;
+      height: 34px; }
+  .email_main .email_passBox {
+    width: 300px;
+    height: auto;
+    min-height: 36px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    background: url(https://yanxuan.nosdn.127.net/178e29b95f152a8aa6490f4f7032a8e8.png) 10px 8px no-repeat; }
+    .email_main .email_passBox i {
+      margin-left: 45px;
+      line-height: 36px; }
+    .email_main .email_passBox .email_pass {
+      border: none;
+      height: 34px; }
+  .email_main .email_login {
+    display: block;
+    width: 300px;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #b4a078;
+    font-size: 18px;
+    line-height: 48px;
+    border-radius: 2px; }
+
+.footer {
+  height: 300px;
+  padding-top: 60px;
+  padding-bottom: 34px; }
+
+.footer_left {
+  float: left;
+  width: 363px;
+  height: 204px;
+  border-right: 1px solid #ccc; }
+
+.footer_left h2 {
+  font-size: 16px;
+  margin-bottom: 28px;
+  color: #333;
+  text-align: center; }
+
+.zz {
+  height: 204px;
+  width: 363px;
+  padding: 0 90px 0 88px;
+  text-align: center; }
+
+.zaixian {
+  width: 80px;
+  height: 100px;
+  border: 1px solid #ccc;
+  padding-top: 25px;
+  text-align: center;
+  float: left; }
+
+.zaixian .fuwu {
+  font-size: 34px;
+  color: #333; }
+
+.zaixian span {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px; }
+
+.yonghu {
+  float: left;
+  width: 80px;
+  height: 100px;
+  border: 1px solid #ccc;
+  padding-top: 25px;
+  text-align: center;
+  margin-left: 25px; }
+
+.yonghu .fankui {
+  font-size: 34px;
+  color: #333; }
+
+.yonghu span {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px; }
+
+.zaixian:hover a span {
+  color: #cc9756; }
+
+.yonghu:hover a span {
+  color: #cc9756; }
+
+.footer_center {
+  float: left;
+  width: 363px;
+  height: 204px;
+  border-right: 1px solid #ccc;
+  padding: 0 37px; }
+
+.footer_center h2 {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 28px; }
+
+.footer_center p {
+  height: 69px;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 22px;
+  line-height: 23px; }
+
+.tubiao {
+  height: 42px;
+  position: relative; }
+
+.tubiao b {
+  font-size: 14px;
+  color: #333;
+  margin-right: 15px;
+  margin-right: 15px;
+  float: left; }
+
+.tubiao .weixin {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+  border-radius: 50%;
+  float: left; }
+
+.erweima {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  display: none; }
+
+.tubiao:hover .erweima {
+  display: block !important; }
+
+.footer_right {
+  float: left;
+  width: 362px;
+  height: 173px; }
+
+.footer_right h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  line-height: 1;
+  color: #333333;
+  text-align: center; }
+
+.footer_right img {
+  margin-left: 125px; }
+
+.footer_right {
+  color: #b4a078;
+  font-size: 12px;
+  margin-top: 3px;
+  text-align: center; }
+
+.bigCopy {
+  width: 100%;
+  height: 268px;
+  background: #414141; }
+
+.copy {
+  height: 268px;
+  padding-top: 37px;
+  text-align: center; }
+
+.copy_Bor {
+  width: 1090px;
+  height: 81px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 27px; }
+
+.wangyi {
+  height: 51px;
+  margin-bottom: 30px;
+  float: left; }
+
+.wangyi img {
+  margin-left: 17px;
+  float: left;
+  margin-right: 17px; }
+
+.wangyi span {
+  font-size: 18px;
+  color: #fff;
+  float: left;
+  line-height: 51px; }
+
+.wangyi1 {
+  height: 51px;
+  margin-bottom: 30px;
+  float: left;
+  margin-left: 100px; }
+
+.wangyi1 img {
+  margin-left: 17px;
+  float: left;
+  margin-right: 17px; }
+
+.wangyi1 span {
+  font-size: 18px;
+  color: #fff;
+  float: left;
+  line-height: 51px; }
+
+.copy ul {
+  text-align: center;
+  color: #999; }
+
+.copy ul li {
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  margin: 0 13px; }
+
+.copy p {
+  margin: 11px 0;
+  font-size: 12px;
+  color: #999;
+  margin-left: 25px; }
+
+.copy b {
+  height: 29px;
+  padding-bottom: 11px;
+  font-size: 12px;
+  color: #999;
+  display: block; }
+
+.copy i {
+  height: 31px;
+  padding-bottom: 11px;
+  font-size: 12px;
+  color: #999; }
