@@ -309,10 +309,24 @@ z-index: 90;
   display: block;
   background: #fff;
 }
-
+// .bigImg{
+//   width: 430px;
+//   height: 430px;
+//   position: absolute;
+//   top: 23px;
+//   right: -450px;
+//   overflow: hidden;
+//   background: #000;
+//   z-index: 80;
+//   .IMG{
+//     width: 856px !important;
+//     height: 856px !important;
+//   }
+// }
 
 .main-listt {
   margin-top: 20px;
+  position: relative;
   .mainn-row {
     width: 1090px;
     margin: 0 auto;
@@ -344,8 +358,8 @@ z-index: 90;
           display: block;
         }
         .mask {
-          width: 214px;
-          height: 214px;
+          width: 175px;
+          height: 175px;
           background-color: orange;
           opacity: 0.4;
           position: absolute;
@@ -360,18 +374,18 @@ z-index: 90;
         height: 428px;
         border: 1px solid green;
         position: absolute;
-        top: 20;
-        left: 428px;
+        top: 44px;
+        left: 570px;
         overflow: hidden;
         z-index: 999;
         display: none;
         img {
-          width: 1000px;
-          height: 1000px;
+          width: 856px;
+          height: 856px;
           display: block;
           position: absolute;
-          left: 0;
-          top: 0;
+          left: 0px;
+          top: 0px;
         }
       }
 

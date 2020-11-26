@@ -294,7 +294,8 @@
   background: #fff; }
 
 .main-listt {
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: relative; }
   .main-listt .mainn-row {
     width: 1090px;
     margin: 0 auto;
@@ -321,8 +322,8 @@
           height: 428px;
           display: block; }
         .main-listt .mainn-row .main-xia .list-left .mask {
-          width: 214px;
-          height: 214px;
+          width: 175px;
+          height: 175px;
           background-color: orange;
           opacity: 0.4;
           position: absolute;
@@ -335,18 +336,18 @@
         height: 428px;
         border: 1px solid green;
         position: absolute;
-        top: 20;
-        left: 428px;
+        top: 44px;
+        left: 570px;
         overflow: hidden;
         z-index: 999;
         display: none; }
         .main-listt .mainn-row .main-xia .maxBox img {
-          width: 1000px;
-          height: 1000px;
+          width: 856px;
+          height: 856px;
           display: block;
           position: absolute;
-          left: 0;
-          top: 0; }
+          left: 0px;
+          top: 0px; }
       .main-listt .mainn-row .main-xia .list-right {
         float: left;
         margin-left: 50px; }
