@@ -25,7 +25,9 @@ phone_btn.onclick = function () {
    }
    var reg =/^0{0,1}(13[0-9]|15[7-9]|153|156|18[7-9])[0-9]{8}$/;
    if(reg.test(phone_user)){
-      alert('登录成功')
+      // alert('登录成功')
+      location.href='./index.html'
+
    }else{
       alert('输入有误')
    }
@@ -44,7 +46,8 @@ email_login.onclick = function () {
    }
    var Email = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
    if(Email.test(email_user)){
-      alert('登录成功')
+      // alert('登录成功')
+      location.href='./index.html'
    }else{
       alert('邮箱账号有误')
    }

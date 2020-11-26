@@ -1,0 +1,487 @@
+.header{
+   width: 100%;
+   height: 36px;
+   background-color: #333;
+ }
+ .a1{
+   font-size: 14px;
+   line-height: 36px;
+   text-decoration: underline;
+   color: #cc9756;
+   float: left;
+ }
+ .a1:hover{
+   text-decoration: none;
+   color: #fff;
+ }
+ .headinner {
+   float: right;
+   margin-right: 135px;
+ }
+ .headinner ul li {
+   float: left;
+ }
+ .headinner ul li a{
+   line-height: 36px;
+   color: #ccc;
+   font-size: 12px;
+ }
+ .headinner ul li:hover a{
+   color: #fff;
+ }
+ .xiala1{
+   font-size: 12px;
+   color: #ccc;
+ }
+ .line{
+   width: 1px;
+   height: 14px;
+   background: #ccc;
+   display: inline-block;
+   margin: 12px 10px;
+ }
+ .li5 a{
+   display: inline-block;
+   position: relative;
+ }
+ .li6 a{
+   display: inline-block;
+   position: relative;
+ }
+ .xiala2{
+ position: absolute;
+ top: 36px;
+ right: 255px;
+ width: 85px;
+ color: #ccc;
+ display: none;
+ font-size: 14px;
+ background: #eee;
+ padding: 0 10px;
+ z-index: 90;
+ }
+ .xiala2 li{
+   width: 70px;
+   // margin: 5px auto;
+   border-bottom: 1px solid #999;
+ }
+ .xiala3{
+   position: absolute;
+   top: 36px;
+   right: 160px;
+   width: 100px;
+   color: #ccc;
+   display: none;
+   font-size: 14px;
+   background: #eee;
+   padding: 0 17px;
+   z-index: 90;
+ 
+ }
+ .xiala3 li{
+   width: 70px;
+   // margin: 5px auto;
+   border-bottom: 1px solid #999;
+ }
+ .xiala2 li:hover{
+   color: #cc9756;
+   
+ }
+ .li5:hover .xiala2{
+   display: block;
+ }
+ .li6:hover .xiala3{
+   display: block;
+ }
+ //logo及搜索框部分
+ .xian{
+   height: 189px;
+   border-bottom: 1px solid #ccc;
+ }
+ .nav{
+   clear: both;
+   height: 150px;
+   background: #fff;
+   position: relative;
+   // border-bottom: 1px #ccc solid;
+ }
+ .logo{
+   float: left;
+ }
+ .bg{
+   background-image: url(../img/jingling1.png);
+   display: inline-block;
+   background-position: 0 -305px;
+   width: 212px;
+   height: 60px;
+   background-repeat: no-repeat;
+   text-indent: -9999px;
+   margin-top: 30px;
+ }
+ .nav_right_box{
+   overflow: hidden;
+   height: 120px;
+   position: relative;
+ }
+ .nav_input{
+     position: absolute;
+     left: 138px;
+     top: 30px;
+     z-index: 1;
+     display: block;
+     height: 38px;
+     line-height: 38px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     border: 1px solid #CC9756;
+     border-bottom-left-radius: 19px;
+     border-top-left-radius: 19px;
+     font-size: 14px;
+     width: 442px;
+     padding-left: 38px;
+     outline: 0;
+     background: 0 0;
+ }
+ .nav_right_box i{
+   font-size: 24px;
+   position: absolute;
+   top: 36px;
+   left: 150px;
+ }
+ .nav_seach{
+     width: 90px;
+     height: 38px;
+     background-color: #CC9756;
+     border-top-right-radius: 19px;
+     border-bottom-right-radius: 19px;
+     cursor: pointer;
+     color: #fff;
+     line-height: 38px;
+     text-align: center;
+     font-size: 16px;
+     letter-spacing: 1px;
+     position: absolute;
+     top: 30px;
+     right: 208px;
+ }
+ .shop{
+     position: absolute;
+     top: 30px;
+     right: 0px;
+     cursor: pointer;
+     width: 134px;
+     height: 38px;
+     border: 1px solid #CC9756;
+     border-radius: 19px;
+     padding: 8px 0;
+ }
+ .shop_img{
+   font-size: 18px;
+   color:  #CC9756;
+   margin-left: 22px;
+ }
+ .shop_name{
+     color: #CC9756;
+     margin-left: 5px;
+     margin-top: -1px;
+     font-size: 14px;
+ }
+ .shop_num{
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+     margin-left: 5px;
+     margin-top: -1px;
+     color: #fff;
+     text-align: center;
+     line-height: 20px;
+     z-index: 1;
+     display: inline-block;
+     border-radius: 50%;
+     background: red;
+ }
+ // 导航栏
+ .nav_ul{
+   float: left;
+ }
+ .nav_ul li{
+   float: left;
+   margin: 0 48px 0 0;
+   border-bottom: 3px solid #cc9756;
+   border: none;
+   height: 30px;
+   position: relative;
+ }
+ .nav_ul li a{
+   display: inline-block;
+   // width: 100%;
+   // height: 100%;
+   font-size: 14px;
+   color: #000000;
+   font-weight: bold;
+ }
+ .nav_ul li a:hover{
+   border-bottom: 3px solid #cc9756;
+ 
+ }
+ .nav_ul li a:hover{
+   color: #cc9756;
+ }
+ .box1{
+   width: 1200px;
+   min-height: 300px;
+   // background: #333;
+   position: absolute;
+   left: -135px;
+   top: 31px;
+   border-left: #ccc 1px solid;
+   border-right: #ccc 1px solid;
+   border-bottom: #ccc 1px solid;
+   display: none;
+ }
+ .box2{
+   width: 124px;
+   height: 100%;
+   float: left;
+   margin-left: 20px;
+ }
+ .box2 a{
+   border: none !important;
+   font-weight: normal !important;
+ }
+ .box2 dl dt{
+   width: 100px;
+   height: 60px;
+   border-bottom: 1px solid #ccc;
+   line-height: 50px;
+   width: 124px;
+   margin-right: 24px;
+ 
+ }
+ .box2 dl dd{
+   height: 50px;
+   line-height: 50px;
+   font-size: 16px;
+   text-align: center;
+ }
+ // .box2 dl dd a{
+ //   float: right;
+ // }
+ .box2 dl dd img{
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   vertical-align: middle;
+ }
+ .box3{
+   width: 124px;
+   height: 100%;
+   float: left;
+   margin-left: 20px;
+ }
+ .box3 a{
+   border: none !important;
+   font-weight: normal !important;
+ }
+ .box3 dl dt{
+   width: 100px;
+   height: 60px;
+   border-bottom: 1px solid #ccc;
+   line-height: 50px;
+   width: 124px;
+   margin-right: 24px;
+ 
+ }
+ .box3 dl dd{
+   height: 50px;
+   line-height: 50px;
+   font-size: 16px;
+   text-align: center;
+ }
+ .box3 dl dd img{
+   display: inline-block;
+   width: 25px;
+   height: 25px;
+   vertical-align: middle;
+ }
+ .li2:hover .box1{
+   display: block;
+   background: #fff;
+ }
+
+
+//  购物车
+
+.wrap {
+   clear: both;
+   width: 1090px;
+   margin: 0 auto;
+   .headerr {
+     margin-top: 30px;
+     height: 80px;
+     background: #b4a078;
+     h1 {
+       line-height: 80px;
+       text-align: center;
+       font-size: 30px;
+       color: #fff;
+       
+     }
+   }
+   .main {
+     .title {
+       line-height: 40px;
+       // background: #ccc;
+       overflow: hidden;
+       span {
+         font-size: 14px;
+         color: #333;
+       }
+       .a1 {
+         margin-left: 100px;
+       }
+       .a2 {
+         margin-left: 450px;
+       }
+       .a3 {
+         margin-left: 100px;
+       }
+       .a4 {
+         margin-left: 100px;
+       }
+     }
+     .list {
+       li {
+          padding: 10px 0 10px 50px;
+         overflow: hidden;
+         position: relative;
+         background: #fcd6d6;
+         margin-bottom: 10px;
+         border: 1px solid #ccc;
+         input{
+            float: left;
+            margin-top: 40px;
+         }
+         img {
+           width: 80px;
+           height: 80px;
+           float: left;
+         }
+         h3 {
+           float: left;
+           margin-left: 10px;
+           width: 340px;
+           padding: 10px 0;
+           font-size: 14px;
+           color: #333;
+           i{
+            font-size: 12px;
+            color: #999;
+            margin-top: 9px;
+            display: block;
+           }
+         }
+         .P1{
+           float: left;
+           margin-left: 50px;
+           width: 100px;
+           text-align: center;
+           line-height: 80px;
+          
+         }
+         .btn1 {
+           float: left;
+           position: absolute;
+           right: 374px;
+           top: 30px;
+         }
+         span {
+           float: left;
+           width: 80px;
+           text-align: center;
+           margin-left: 50px;
+           line-height: 63px;
+         }
+         .btn2 {
+           float: left;
+           position: absolute;
+           right: 312px;
+           top: 30px;
+         }
+         em {
+           float: left;
+           margin-left: 73px;
+           line-height: 80px;
+           cursor: pointer;
+         }
+       }
+     }
+   }
+ }
+ 
+
+ .out{
+   height: 70px;
+   background: #efefef;
+   border: 1px solid #ccc;
+   padding-left: 50px;
+   span{
+      margin-left: 14px;
+      font-size: 14px;
+      color: #333;
+      line-height: 70px;
+      cursor: pointer;
+   }
+   h1{
+    float: right;
+    width: 140px;
+    height: 70px;
+    margin-top: -1px;
+    margin-right: -1px;
+    font-size: 18px;
+    line-height: 70px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-left: 1px solid #fff;
+   }
+   .price{
+      height: 70px;
+      width: 217px;
+      float: right;
+      padding: 8px 10px 15px 30px;
+      .p1{
+         display: inline-block;
+         font-size: 16px;
+         margin-right: 20px;
+         color: #333;
+      }
+      b{
+         color: #be4141;
+         font-weight: bold;
+         font-size: 22px;
+      }
+      span{
+         color: #be4141;
+         font-weight: bold;
+         font-size: 20px;
+      }
+   }
+   .outBox{
+      float: right;
+      width: 228px;
+      height: 50px;
+      margin: 10px 0;
+      border-right: 1px solid #ccc;
+      .p2{
+         height: 20px;
+         line-height: 24px;
+         margin-top: -5px;
+         font-size: 12px;
+         color: #999;
+         display: inline-block;
+      }
+   }
+ }
