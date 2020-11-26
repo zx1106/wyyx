@@ -673,7 +673,8 @@
   color: #999; }
 
 .imgAll {
-  margin-top: 30px; }
+  margin-top: 30px;
+  height: 150px; }
 
 .imgAll1 {
   float: left;
