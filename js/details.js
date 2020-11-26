@@ -3,8 +3,30 @@
 			var minBox = document.querySelector('.list-left');
 			var mask = document.querySelector('.mask');
 			var maxBox = document.querySelector('.maxBox');
-		var maxImg = document.querySelector('.maxBox img')
-			
+         var maxImg = document.querySelector('.maxBox img');
+         var allImg = document.querySelectorAll('.imgAll1 img');
+         var minimg = document.querySelector('.list-left img')
+
+         // console.log(allImg);
+         
+         for(var i=0;i<allImg.length;i++){
+            allImg[i].index = i
+            allImg[i].onmouseover = function () {
+               for(var j = 0; j<allImg.length;j++ ){
+                  // console.log(222);
+                  //清除之前选项卡的样式
+                  allImg[j].className = 'imgAll1'
+               }
+               //给当前选项卡添加样式
+               allImg[this.index].className = 'xuan'
+               // 划过改变小图的地址
+               minimg.src = allImg[this.index].src
+               maxImg.src = allImg[this.index].src
+            }
+
+         }
+         
+
 			//鼠标移动，mask 跟随移动
 			minBox.onmousemove = function(ev){
 				var e = ev || event;
@@ -43,3 +65,5 @@
 				mask.style.display = 'none'
 				maxBox.style.display = 'none'
 			}
+
+        
