@@ -157,7 +157,7 @@ function ajax(options) {
   } // 判断请求方式
 
 
-  if (options.type.toLowerCase() === 'get') {
+  if (options.type === 'get') {
     var time = '';
     time = options.cache ? '' : Date.now(); // 2.打开连接
 
@@ -167,7 +167,7 @@ function ajax(options) {
     xhr.send(null); // get请求传null
   }
 
-  if (options.type.toLowerCase() === 'post') {
+  if (options.type === 'post') {
     // 2.打开连接
     xhr.open(options.type, options.url, true); // 默认true，异步
     // post 请不会有缓存问题

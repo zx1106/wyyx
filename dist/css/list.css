@@ -391,6 +391,15 @@ body, html {
   .list_main .list_mainBox {
     width: 245px;
     height: 401px; }
+    .list_main .list_mainBox em {
+      z-index: 999;
+      display: inline-block;
+      color: #333;
+      width: 75px;
+      border: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+      font-size: 14px; }
     .list_main .list_mainBox .list_mainBox_text {
       width: 245px;
       height: 127px;

@@ -23,8 +23,9 @@ for (var i = 0; i < allImg.length; i++) {
     minimg.src = allImg[this.index].src;
     maxImg.src = allImg[this.index].src;
   };
-} //鼠标移动，mask 跟随移动
+}
 
+console.log(minBox); //鼠标移动，mask 跟随移动
 
 minBox.onmousemove = function (ev) {
   var e = ev || event; //计算mask的定位坐标
@@ -65,4 +66,62 @@ minBox.onmouseenter = function () {
 minBox.onmouseleave = function () {
   mask.style.display = 'none';
   maxBox.style.display = 'none';
-};
+}; // var seach = location.search
+// var id = seach.split('=')[1]
+// // console.log(id);
+// var main_xia = document.querySelector('.main-xia')
+// ajax({
+// 	url: './php/register.php',
+// 	// data: 'id=' + id,
+// 	dataType:'json',
+// 	type:'get',
+// 	success: function (data) {
+// 		 //var data = JSON.parse(data)
+// 		 console.log(data);
+// 		var str = '';
+// 		data.forEach(item => {
+// 			str += `
+// 						<div class="list-left">
+// 						  <img
+// 							 src="${item.img}"
+// 							 alt=""
+// 						  />
+// 						  <div class="mask"></div>
+// 						</div>
+// 						<div class="maxBox">
+// 						  <img
+// 							 src="${item.img}"
+// 							 alt=""
+// 						  />
+// 						</div>
+// 						<div class="list-right">
+// 						  <h3>${item.title}
+// 						  </h3>
+// 						  <div class="desc-gou">${item.miaoshu}
+// 						  </div>
+// 						  <div class="huodong">
+// 							 <span class="hd-labal">活动价</span>
+// 							 <span class="hd-jiage">${item.jiage}</span>
+// 						  </div>
+// 						  <div class="xianzhi">
+// 							 <span class="xz-labal">限制</span>
+// 							 <span class="xz-jieshi">特价商品不可与优惠券叠加使用</span>
+// 						  </div>
+// 						  <div class="gou-num">
+// 							 <div class="gou-name">数量</div>
+// 							 <div class="field f-left">
+// 								<button class="btn1">-</button>
+// 								<span>2</span>
+// 								<button class="btn2">+</button>
+// 							 </div>
+// 						  </div>
+// 						  <div class="btnss">
+// 							 <a href="goodsCart.html" class="goumai-btn">立即购买</a>
+// 							 <a href="goodsCart.html" class="jiaru-btn">加入购物车</a>
+// 						  </div>
+// 						</div>
+// 					    `
+// 				main_xia.innerHTML = str
+// 		})
+// 	}
+// })

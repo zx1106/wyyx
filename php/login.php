@@ -4,12 +4,12 @@ $n=$_GET['user'];
 $p=$_GET['pass'];
 
 //连接数据库
-$link=mysqli_connect('localhost','root','root','boss');
+$link=mysqli_connect('localhost','root','123456','xingxing');
 //设置编码
 mysqli_set_charset($link,'utf8');
 
 //SQL语句
-$sql="select * from login where username='$n' and password='$p'";
+$sql="select * from xingxing where user='$n' and pass='$p'";
 
 //执行SQL
 $result=mysqli_query($link,$sql);

@@ -431,6 +431,16 @@ z-index: 90;
   .list_mainBox{
     width: 245px;
     height: 401px;
+    em{
+      z-index: 999;
+      display: inline-block;
+      color: #333;
+      width: 75px;
+      border: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+      font-size: 14px;
+    }
     .list_mainBox_text{
       width: 245px;
       height: 127px;
@@ -453,8 +463,8 @@ z-index: 90;
       b{
         color: #999;
         font-size: 13px;
-
       }
+      
     }
   }
 }

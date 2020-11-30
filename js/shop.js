@@ -13,7 +13,6 @@ $(function () {
       var e = e || window.event;
       var target = e.target || e.srcElement;
       if (target.className === 'anniu') {
-
          a++;
       }
       if (a === list.length) {
@@ -39,7 +38,6 @@ all.onclick = function () {
 }
 remove1.onclick = function () {
    console.log(111);
-
    for (var i = 0; i < anniuAll.length; i++) {
       if (anniuAll[i].checked === true) {
           anniuAll[i].parentNode.remove()
